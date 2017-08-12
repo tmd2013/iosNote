@@ -42,6 +42,7 @@
     _adapter = [[HomeAdapter alloc] init];
     _adapter.ClickBlock = ^(id clickdata){
         HomeItems *item = clickdata;
+        NSLog(@"%@",item.propertyDict);
         FFPush(weakself,item.toVc, item.propertyDict);
     };
     self.tableViewHome.delegate = _adapter;
