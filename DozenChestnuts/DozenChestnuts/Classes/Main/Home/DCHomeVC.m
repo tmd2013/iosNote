@@ -7,8 +7,15 @@
 //
 
 #import "DCHomeVC.h"
+#import "HomeAdapter.h"
+#import "HomeItems.h"
+#import "DCConfig.h"
 
 @interface DCHomeVC ()
+@property (weak, nonatomic) IBOutlet UITableView *tableViewHome;
+
+/**HomeAdapter*/
+@property(nonatomic,strong)HomeAdapter *adapter;
 
 @end
 
@@ -16,22 +23,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self setupUI];
+    [self vcRegistNotific];
+    [self vcLoadDatasourse];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 设置ui
+- (void)setupUI
+{
+    self.tableViewHome.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self initAdapter];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)initAdapter{
+    //    NSLog(@"1");
+    //模块划分
+    __weak typeof(self) weakself = self;
+    _adapter = [[HomeAdapter alloc] init];
+    _adapter.ClickBlock = ^(id clickdata){
+        HomeItems *item = clickdata;
+        FFPush(weakself,item.toVc, item.propertyDict);
+    };
+    self.tableViewHome.delegate = _adapter;
+    self.tableViewHome.dataSource = _adapter;
 }
-*/
+
+#pragma mark - 设置数据
+- (void)vcLoadDatasourse
+{
+    self.adapter.headerArray = [[HomeItems getItemsHeader] mutableCopy];
+    self.adapter.datasourseDict = [[HomeItems getItemsContent] mutableCopy];
+
+}
+
+#pragma mark - 注册通知和实现
+- (void)vcRegistNotific
+{
+    
+}
+
+#pragma mark - 懒加载
+
+#pragma mark - 点击事件
+
+#pragma mark - 业务逻辑
+
+#pragma mark - 自定义代理
 
 @end

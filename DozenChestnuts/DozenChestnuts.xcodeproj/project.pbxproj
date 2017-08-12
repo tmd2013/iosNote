@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3C72821F3EE23A005BDDE2 /* HomeItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72811F3EE23A005BDDE2 /* HomeItems.plist */; };
+		3C3C72861F3EF04D005BDDE2 /* FFRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72851F3EF04D005BDDE2 /* FFRoute.m */; };
+		3C3C72891F3EF094005BDDE2 /* DCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72881F3EF094005BDDE2 /* DCConfig.m */; };
+		3C3C72981F3F16A5005BDDE2 /* MagnifierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C728E1F3F16A5005BDDE2 /* MagnifierVC.m */; };
+		3C3C72991F3F16A5005BDDE2 /* MagnifierVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C728F1F3F16A5005BDDE2 /* MagnifierVC.xib */; };
+		3C3C729A1F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72911F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg */; };
+		3C3C729B1F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72921F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg */; };
+		3C3C729C1F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72931F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg */; };
+		3C3C729D1F3F16A5005BDDE2 /* Magnifier.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72941F3F16A5005BDDE2 /* Magnifier.bundle */; };
+		3C3C729E1F3F16A5005BDDE2 /* MagnifierIV.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72971F3F16A5005BDDE2 /* MagnifierIV.m */; };
+		3C3C72A11F3F172B005BDDE2 /* DCBaseWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72A01F3F172B005BDDE2 /* DCBaseWebVC.m */; };
 		3CF80D291F3E96B0007F3C52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D281F3E96B0007F3C52 /* main.m */; };
 		3CF80D2C1F3E96B0007F3C52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D2B1F3E96B0007F3C52 /* AppDelegate.m */; };
 		3CF80D321F3E96B0007F3C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF80D301F3E96B0007F3C52 /* Main.storyboard */; };
@@ -25,6 +36,10 @@
 		3CF80D7E1F3E9BDE007F3C52 /* DCBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D7D1F3E9BDE007F3C52 /* DCBaseVC.m */; };
 		3CF80D821F3E9BF6007F3C52 /* DCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D801F3E9BF6007F3C52 /* DCHomeVC.m */; };
 		3CF80D831F3E9BF6007F3C52 /* DCHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF80D811F3E9BF6007F3C52 /* DCHomeVC.xib */; };
+		3CF80D861F3EACF4007F3C52 /* BaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D851F3EACF4007F3C52 /* BaseAdapter.m */; };
+		3CF80D8A1F3EAD3B007F3C52 /* HomeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D891F3EAD3B007F3C52 /* HomeAdapter.m */; };
+		3CF80D8E1F3EB057007F3C52 /* HomeItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF80D8D1F3EB057007F3C52 /* HomeItems.m */; };
+		B5964AF60531C1D5194650C2 /* libPods-DozenChestnuts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA147FC6D8B24127C98E7C70 /* libPods-DozenChestnuts.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3C72811F3EE23A005BDDE2 /* HomeItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeItems.plist; sourceTree = "<group>"; };
+		3C3C72841F3EF04D005BDDE2 /* FFRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRoute.h; sourceTree = "<group>"; };
+		3C3C72851F3EF04D005BDDE2 /* FFRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRoute.m; sourceTree = "<group>"; };
+		3C3C72871F3EF094005BDDE2 /* DCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConfig.h; sourceTree = "<group>"; };
+		3C3C72881F3EF094005BDDE2 /* DCConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConfig.m; sourceTree = "<group>"; };
+		3C3C728D1F3F16A5005BDDE2 /* MagnifierVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifierVC.h; sourceTree = "<group>"; };
+		3C3C728E1F3F16A5005BDDE2 /* MagnifierVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifierVC.m; sourceTree = "<group>"; };
+		3C3C728F1F3F16A5005BDDE2 /* MagnifierVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagnifierVC.xib; sourceTree = "<group>"; };
+		3C3C72911F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 64791030e924b8990ee95dcc64061d950b7bf62a.jpg; sourceTree = "<group>"; };
+		3C3C72921F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg; sourceTree = "<group>"; };
+		3C3C72931F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f57994504fc2d56295daf719ed1190ef77c66c30.jpg; sourceTree = "<group>"; };
+		3C3C72941F3F16A5005BDDE2 /* Magnifier.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Magnifier.bundle; sourceTree = "<group>"; };
+		3C3C72961F3F16A5005BDDE2 /* MagnifierIV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifierIV.h; sourceTree = "<group>"; };
+		3C3C72971F3F16A5005BDDE2 /* MagnifierIV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifierIV.m; sourceTree = "<group>"; };
+		3C3C729F1F3F172B005BDDE2 /* DCBaseWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseWebVC.h; sourceTree = "<group>"; };
+		3C3C72A01F3F172B005BDDE2 /* DCBaseWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseWebVC.m; sourceTree = "<group>"; };
 		3CF80D241F3E96B0007F3C52 /* DozenChestnuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DozenChestnuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF80D281F3E96B0007F3C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF80D2A1F3E96B0007F3C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +110,15 @@
 		3CF80D7F1F3E9BF6007F3C52 /* DCHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCHomeVC.h; sourceTree = "<group>"; };
 		3CF80D801F3E9BF6007F3C52 /* DCHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCHomeVC.m; sourceTree = "<group>"; };
 		3CF80D811F3E9BF6007F3C52 /* DCHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCHomeVC.xib; sourceTree = "<group>"; };
+		3CF80D841F3EACF4007F3C52 /* BaseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAdapter.h; sourceTree = "<group>"; };
+		3CF80D851F3EACF4007F3C52 /* BaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAdapter.m; sourceTree = "<group>"; };
+		3CF80D881F3EAD3B007F3C52 /* HomeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAdapter.h; sourceTree = "<group>"; };
+		3CF80D891F3EAD3B007F3C52 /* HomeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAdapter.m; sourceTree = "<group>"; };
+		3CF80D8C1F3EB057007F3C52 /* HomeItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeItems.h; sourceTree = "<group>"; };
+		3CF80D8D1F3EB057007F3C52 /* HomeItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeItems.m; sourceTree = "<group>"; };
+		5F97E796C3B98F7FD2F3ACCC /* Pods-DozenChestnuts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DozenChestnuts.release.xcconfig"; path = "Pods/Target Support Files/Pods-DozenChestnuts/Pods-DozenChestnuts.release.xcconfig"; sourceTree = "<group>"; };
+		70414C980C98233CC24947D3 /* Pods-DozenChestnuts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DozenChestnuts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DozenChestnuts/Pods-DozenChestnuts.debug.xcconfig"; sourceTree = "<group>"; };
+		BA147FC6D8B24127C98E7C70 /* libPods-DozenChestnuts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DozenChestnuts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5964AF60531C1D5194650C2 /* libPods-DozenChestnuts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +147,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C3C72801F3EE1B6005BDDE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C72811F3EE23A005BDDE2 /* HomeItems.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C3C72831F3EEFDC005BDDE2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C72841F3EF04D005BDDE2 /* FFRoute.h */,
+				3C3C72851F3EF04D005BDDE2 /* FFRoute.m */,
+				3C3C72871F3EF094005BDDE2 /* DCConfig.h */,
+				3C3C72881F3EF094005BDDE2 /* DCConfig.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3C3C728A1F3F15B1005BDDE2 /* ICMagnifier */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C728C1F3F16A5005BDDE2 /* Controller */,
+				3C3C72901F3F16A5005BDDE2 /* Resources */,
+				3C3C72951F3F16A5005BDDE2 /* View */,
+			);
+			path = ICMagnifier;
+			sourceTree = "<group>";
+		};
+		3C3C728C1F3F16A5005BDDE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C728D1F3F16A5005BDDE2 /* MagnifierVC.h */,
+				3C3C728E1F3F16A5005BDDE2 /* MagnifierVC.m */,
+				3C3C728F1F3F16A5005BDDE2 /* MagnifierVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C3C72901F3F16A5005BDDE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C72911F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg */,
+				3C3C72921F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg */,
+				3C3C72931F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg */,
+				3C3C72941F3F16A5005BDDE2 /* Magnifier.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C3C72951F3F16A5005BDDE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C72961F3F16A5005BDDE2 /* MagnifierIV.h */,
+				3C3C72971F3F16A5005BDDE2 /* MagnifierIV.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3CF80D1B1F3E96B0007F3C52 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +213,8 @@
 				3CF80D401F3E96B0007F3C52 /* DozenChestnutsTests */,
 				3CF80D4B1F3E96B0007F3C52 /* DozenChestnutsUITests */,
 				3CF80D251F3E96B0007F3C52 /* Products */,
+				DA0FB324E8B2E217E43DE080 /* Pods */,
+				842868EB20E1C470202B001C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +289,7 @@
 		3CF80D5C1F3E974B007F3C52 /* ImageChestnuts */ = {
 			isa = PBXGroup;
 			children = (
+				3C3C728A1F3F15B1005BDDE2 /* ICMagnifier */,
 			);
 			path = ImageChestnuts;
 			sourceTree = "<group>";
@@ -194,6 +297,7 @@
 		3CF80D5D1F3E976C007F3C52 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3C3C72831F3EEFDC005BDDE2 /* Util */,
 				3CF80D6C1F3E9937007F3C52 /* FFCategory */,
 				3CF80D601F3E991E007F3C52 /* FFTabbar */,
 				3CF80D5F1F3E9871007F3C52 /* Home */,
@@ -205,8 +309,12 @@
 		3CF80D5E1F3E9782007F3C52 /* BaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				3CF80D841F3EACF4007F3C52 /* BaseAdapter.h */,
+				3CF80D851F3EACF4007F3C52 /* BaseAdapter.m */,
 				3CF80D7C1F3E9BDE007F3C52 /* DCBaseVC.h */,
 				3CF80D7D1F3E9BDE007F3C52 /* DCBaseVC.m */,
+				3C3C729F1F3F172B005BDDE2 /* DCBaseWebVC.h */,
+				3C3C72A01F3F172B005BDDE2 /* DCBaseWebVC.m */,
 			);
 			path = BaseComponent;
 			sourceTree = "<group>";
@@ -214,6 +322,9 @@
 		3CF80D5F1F3E9871007F3C52 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3C3C72801F3EE1B6005BDDE2 /* Resources */,
+				3CF80D8B1F3EB032007F3C52 /* Model */,
+				3CF80D871F3EAD11007F3C52 /* View */,
 				3CF80D7F1F3E9BF6007F3C52 /* DCHomeVC.h */,
 				3CF80D801F3E9BF6007F3C52 /* DCHomeVC.m */,
 				3CF80D811F3E9BF6007F3C52 /* DCHomeVC.xib */,
@@ -250,6 +361,41 @@
 			path = FFCategory;
 			sourceTree = "<group>";
 		};
+		3CF80D871F3EAD11007F3C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CF80D881F3EAD3B007F3C52 /* HomeAdapter.h */,
+				3CF80D891F3EAD3B007F3C52 /* HomeAdapter.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF80D8B1F3EB032007F3C52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CF80D8C1F3EB057007F3C52 /* HomeItems.h */,
+				3CF80D8D1F3EB057007F3C52 /* HomeItems.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		842868EB20E1C470202B001C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA147FC6D8B24127C98E7C70 /* libPods-DozenChestnuts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0FB324E8B2E217E43DE080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70414C980C98233CC24947D3 /* Pods-DozenChestnuts.debug.xcconfig */,
+				5F97E796C3B98F7FD2F3ACCC /* Pods-DozenChestnuts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CF80D511F3E96B0007F3C52 /* Build configuration list for PBXNativeTarget "DozenChestnuts" */;
 			buildPhases = (
+				324A8BEEF6B1CB4DEDD149B8 /* [CP] Check Pods Manifest.lock */,
 				3CF80D201F3E96B0007F3C52 /* Sources */,
 				3CF80D211F3E96B0007F3C52 /* Frameworks */,
 				3CF80D221F3E96B0007F3C52 /* Resources */,
+				6E91B09EB271E6E933A1AC99 /* [CP] Embed Pods Frameworks */,
+				EE2BDC4968DF71B1FBDEEB06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -357,9 +506,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3C729C1F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg in Resources */,
+				3C3C729A1F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg in Resources */,
+				3C3C729B1F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg in Resources */,
 				3CF80D371F3E96B0007F3C52 /* LaunchScreen.storyboard in Resources */,
 				3CF80D831F3E9BF6007F3C52 /* DCHomeVC.xib in Resources */,
+				3C3C72821F3EE23A005BDDE2 /* HomeItems.plist in Resources */,
 				3CF80D6B1F3E991E007F3C52 /* TabbarItems.plist in Resources */,
+				3C3C729D1F3F16A5005BDDE2 /* Magnifier.bundle in Resources */,
+				3C3C72991F3F16A5005BDDE2 /* MagnifierVC.xib in Resources */,
 				3CF80D341F3E96B0007F3C52 /* Assets.xcassets in Resources */,
 				3CF80D321F3E96B0007F3C52 /* Main.storyboard in Resources */,
 			);
@@ -381,21 +536,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		324A8BEEF6B1CB4DEDD149B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E91B09EB271E6E933A1AC99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DozenChestnuts/Pods-DozenChestnuts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2BDC4968DF71B1FBDEEB06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DozenChestnuts/Pods-DozenChestnuts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CF80D201F3E96B0007F3C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CF80D7E1F3E9BDE007F3C52 /* DCBaseVC.m in Sources */,
+				3C3C72981F3F16A5005BDDE2 /* MagnifierVC.m in Sources */,
 				3CF80D781F3E9937007F3C52 /* NSDictionary+FF_Expansion.m in Sources */,
+				3C3C72891F3EF094005BDDE2 /* DCConfig.m in Sources */,
+				3C3C72861F3EF04D005BDDE2 /* FFRoute.m in Sources */,
 				3CF80D7B1F3E9937007F3C52 /* UIColor+FFExpansion.m in Sources */,
 				3CF80D2C1F3E96B0007F3C52 /* AppDelegate.m in Sources */,
+				3C3C72A11F3F172B005BDDE2 /* DCBaseWebVC.m in Sources */,
 				3CF80D771F3E9937007F3C52 /* NSDate+FFExpansion.m in Sources */,
 				3CF80D7A1F3E9937007F3C52 /* UIBarButtonItem+FFExpansion.m in Sources */,
+				3C3C729E1F3F16A5005BDDE2 /* MagnifierIV.m in Sources */,
 				3CF80D6A1F3E991E007F3C52 /* TabbarItems.m in Sources */,
 				3CF80D291F3E96B0007F3C52 /* main.m in Sources */,
+				3CF80D861F3EACF4007F3C52 /* BaseAdapter.m in Sources */,
+				3CF80D8E1F3EB057007F3C52 /* HomeItems.m in Sources */,
 				3CF80D681F3E991E007F3C52 /* FFNavigationController.m in Sources */,
 				3CF80D821F3E9BF6007F3C52 /* DCHomeVC.m in Sources */,
+				3CF80D8A1F3EAD3B007F3C52 /* HomeAdapter.m in Sources */,
 				3CF80D691F3E991E007F3C52 /* FFTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +754,7 @@
 		};
 		3CF80D521F3E96B0007F3C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70414C980C98233CC24947D3 /* Pods-DozenChestnuts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VB3D2T2DRU;
@@ -555,6 +767,7 @@
 		};
 		3CF80D531F3E96B0007F3C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F97E796C3B98F7FD2F3ACCC /* Pods-DozenChestnuts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VB3D2T2DRU;
@@ -630,6 +843,7 @@
 				3CF80D531F3E96B0007F3C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF80D541F3E96B0007F3C52 /* Build configuration list for PBXNativeTarget "DozenChestnutsTests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +852,7 @@
 				3CF80D561F3E96B0007F3C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF80D571F3E96B0007F3C52 /* Build configuration list for PBXNativeTarget "DozenChestnutsUITests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +861,7 @@
 				3CF80D591F3E96B0007F3C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

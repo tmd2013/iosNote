@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCHomeVC">
             <connections>
+                <outlet property="tableViewHome" destination="RYu-E3-cAM" id="PRm-UL-OhW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,7 +19,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RYu-E3-cAM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" red="0.1647058824" green="0.69803921570000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="RYu-E3-cAM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9cc-3Q-miy"/>
+                <constraint firstAttribute="bottom" secondItem="RYu-E3-cAM" secondAttribute="bottom" id="APl-Cg-5Zc"/>
+                <constraint firstItem="RYu-E3-cAM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JrR-i8-KrH"/>
+                <constraint firstAttribute="trailing" secondItem="RYu-E3-cAM" secondAttribute="trailing" id="wMj-Bp-cUT"/>
+            </constraints>
         </view>
     </objects>
 </document>

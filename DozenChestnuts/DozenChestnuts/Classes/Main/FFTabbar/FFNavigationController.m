@@ -9,6 +9,7 @@
 #import "FFNavigationController.h"
 #import "NSDictionary+FF_Expansion.h"
 #import "UIBarButtonItem+FFExpansion.h"
+#import "DCConfig.h"
 
 @interface FFNavigationController ()
 
@@ -40,7 +41,7 @@
 #pragma mark - 设置ui
 - (void)setupUI
 {
-//    self.navigationBar.barTintColor = [UIColor blueColor];
+    self.navigationBar.barTintColor = FFColor(118, 210, 249);
 //    self.navigationBar.titleTextAttributes = [NSDictionary ff_setFontAttrsWithFontColor:[UIColor whiteColor] fontSize:20];
 }
 
@@ -66,7 +67,7 @@
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
         // 设置左边的返回按钮
-        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"arrow_left" highImage:@"arrow_left"];
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"nav_leftaArrows" highImage:@"nav_leftaArrows"];
     }else{
         viewController.hidesBottomBarWhenPushed = NO;
     }

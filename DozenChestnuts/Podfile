@@ -1,0 +1,8 @@
+inhibit_all_warnings!
+platform :ios, '9.0'
+
+
+target 'DozenChestnuts' do
+  pod 'Masonry', '~> 1.0'
+
+end
