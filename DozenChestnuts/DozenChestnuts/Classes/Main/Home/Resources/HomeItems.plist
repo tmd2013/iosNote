@@ -11,6 +11,17 @@
 	<dict>
 		<key>图片栗子</key>
 		<array>
+            <dict>
+                <key>itemTitle</key>
+                <string>刮刮卡</string>
+                <key>itemIcon</key>
+                <string></string>
+                <key>toVc</key>
+                <string>ICScratchCardVC</string>
+                <key>propertyDict</key>
+                <dict/>
+            </dict>
+            
 			<dict>
 				<key>itemTitle</key>
 				<string>放大镜</string>

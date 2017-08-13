@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3482071F3FCCE400FC5241 /* UIImage+FF_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3482061F3FCCE400FC5241 /* UIImage+FF_Extension.m */; };
+		3C34820D1F3FCDA600FC5241 /* ICScratchCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34820B1F3FCDA600FC5241 /* ICScratchCardVC.m */; };
+		3C34820E1F3FCDA600FC5241 /* ICScratchCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C34820C1F3FCDA600FC5241 /* ICScratchCardVC.xib */; };
 		3C3C72821F3EE23A005BDDE2 /* HomeItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C72811F3EE23A005BDDE2 /* HomeItems.plist */; };
 		3C3C72861F3EF04D005BDDE2 /* FFRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72851F3EF04D005BDDE2 /* FFRoute.m */; };
 		3C3C72891F3EF094005BDDE2 /* DCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C72881F3EF094005BDDE2 /* DCConfig.m */; };
@@ -60,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3482051F3FCCE400FC5241 /* UIImage+FF_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FF_Extension.h"; sourceTree = "<group>"; };
+		3C3482061F3FCCE400FC5241 /* UIImage+FF_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FF_Extension.m"; sourceTree = "<group>"; };
+		3C34820A1F3FCDA600FC5241 /* ICScratchCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICScratchCardVC.h; sourceTree = "<group>"; };
+		3C34820B1F3FCDA600FC5241 /* ICScratchCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICScratchCardVC.m; sourceTree = "<group>"; };
+		3C34820C1F3FCDA600FC5241 /* ICScratchCardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICScratchCardVC.xib; sourceTree = "<group>"; };
 		3C3C72811F3EE23A005BDDE2 /* HomeItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeItems.plist; sourceTree = "<group>"; };
 		3C3C72841F3EF04D005BDDE2 /* FFRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRoute.h; sourceTree = "<group>"; };
 		3C3C72851F3EF04D005BDDE2 /* FFRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRoute.m; sourceTree = "<group>"; };
@@ -147,6 +155,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C3482081F3FCD2F00FC5241 /* ICScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				3C3482091F3FCD6B00FC5241 /* Controller */,
+			);
+			path = ICScratchCard;
+			sourceTree = "<group>";
+		};
+		3C3482091F3FCD6B00FC5241 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C34820A1F3FCDA600FC5241 /* ICScratchCardVC.h */,
+				3C34820B1F3FCDA600FC5241 /* ICScratchCardVC.m */,
+				3C34820C1F3FCDA600FC5241 /* ICScratchCardVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3C3C72801F3EE1B6005BDDE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,13 +192,14 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		3C3C728A1F3F15B1005BDDE2 /* ICMagnifier */ = {
+		3C3C728A1F3F15B1005BDDE2 /* ICMagnifier(放大镜) */ = {
 			isa = PBXGroup;
 			children = (
 				3C3C728C1F3F16A5005BDDE2 /* Controller */,
 				3C3C72901F3F16A5005BDDE2 /* Resources */,
 				3C3C72951F3F16A5005BDDE2 /* View */,
 			);
+			name = "ICMagnifier(放大镜)";
 			path = ICMagnifier;
 			sourceTree = "<group>";
 		};
@@ -289,7 +316,8 @@
 		3CF80D5C1F3E974B007F3C52 /* ImageChestnuts */ = {
 			isa = PBXGroup;
 			children = (
-				3C3C728A1F3F15B1005BDDE2 /* ICMagnifier */,
+				3C3482081F3FCD2F00FC5241 /* ICScratchCard */,
+				3C3C728A1F3F15B1005BDDE2 /* ICMagnifier(放大镜) */,
 			);
 			path = ImageChestnuts;
 			sourceTree = "<group>";
@@ -349,6 +377,8 @@
 		3CF80D6C1F3E9937007F3C52 /* FFCategory */ = {
 			isa = PBXGroup;
 			children = (
+				3C3482051F3FCCE400FC5241 /* UIImage+FF_Extension.h */,
+				3C3482061F3FCCE400FC5241 /* UIImage+FF_Extension.m */,
 				3CF80D6D1F3E9937007F3C52 /* NSDate+FFExpansion.h */,
 				3CF80D6E1F3E9937007F3C52 /* NSDate+FFExpansion.m */,
 				3CF80D6F1F3E9937007F3C52 /* NSDictionary+FF_Expansion.h */,
@@ -509,6 +539,7 @@
 				3C3C729C1F3F16A5005BDDE2 /* f57994504fc2d56295daf719ed1190ef77c66c30.jpg in Resources */,
 				3C3C729A1F3F16A5005BDDE2 /* 64791030e924b8990ee95dcc64061d950b7bf62a.jpg in Resources */,
 				3C3C729B1F3F16A5005BDDE2 /* 9d02a24bd11373f05ebdf461ae0f4bfbfaed040b.jpg in Resources */,
+				3C34820E1F3FCDA600FC5241 /* ICScratchCardVC.xib in Resources */,
 				3CF80D371F3E96B0007F3C52 /* LaunchScreen.storyboard in Resources */,
 				3CF80D831F3E9BF6007F3C52 /* DCHomeVC.xib in Resources */,
 				3C3C72821F3EE23A005BDDE2 /* HomeItems.plist in Resources */,
@@ -594,10 +625,12 @@
 				3CF80D781F3E9937007F3C52 /* NSDictionary+FF_Expansion.m in Sources */,
 				3C3C72891F3EF094005BDDE2 /* DCConfig.m in Sources */,
 				3C3C72861F3EF04D005BDDE2 /* FFRoute.m in Sources */,
+				3C3482071F3FCCE400FC5241 /* UIImage+FF_Extension.m in Sources */,
 				3CF80D7B1F3E9937007F3C52 /* UIColor+FFExpansion.m in Sources */,
 				3CF80D2C1F3E96B0007F3C52 /* AppDelegate.m in Sources */,
 				3C3C72A11F3F172B005BDDE2 /* DCBaseWebVC.m in Sources */,
 				3CF80D771F3E9937007F3C52 /* NSDate+FFExpansion.m in Sources */,
+				3C34820D1F3FCDA600FC5241 /* ICScratchCardVC.m in Sources */,
 				3CF80D7A1F3E9937007F3C52 /* UIBarButtonItem+FFExpansion.m in Sources */,
 				3C3C729E1F3F16A5005BDDE2 /* MagnifierIV.m in Sources */,
 				3CF80D6A1F3E991E007F3C52 /* TabbarItems.m in Sources */,
